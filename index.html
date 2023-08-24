@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <title>Todo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico">
+</head>
+
+<body>
+  <div id="container">
+
+    <h1>Todo List</h1>
+    <input placeholder="Add a task" class="add-task" id="add" data-helloWord="asdasdas" />
+
+    <div class="feature">
+      <input type="checkbox" id="complete-all" class="complete-all">
+      <label for="complete-all">Complete All</label>
+      <button id="delete-all">Delete All</button>
+    </div>
+
+    <div id="container2">
+      <ul id="list">
+        <li>
+          <span style="color: gray;">No Task Available</span>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="feature">
+      <span id="total-tasks">Total tasks: <span id="tasks-counter">0</span></span>
+      <button id="filter-completed">Completed</button>
+      <button id="filter-uncompleted">Uncompleted</button>
+      <button id="filter-all">All</button>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+
+</html>
